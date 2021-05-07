@@ -52,7 +52,7 @@ const getWordFromTarget = async (): Promise<string> => {
  * @param title The title string
  */
 const logWordToSheets = async (word: string) => {
-  const SHEET_ID = '10-jQHX8bUbxQTNOuHfY3mssKY0Pqqwtbg5L59kqY3z4';
+  const SHEET_ID = '178EHz5IPUQX9u5rjt9V_B0sjysOc4A5HzpzvvBxIP9I';
 
   const auth = await google.auth.getClient({
     scopes: ['https://www.googleapis.com/auth/spreadsheets']
